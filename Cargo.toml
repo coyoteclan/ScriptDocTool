@@ -1,7 +1,15 @@
 [package]
-name = "script_doc_gen"
+name = "script_doc_tool"
 version = "0.1.0"
 edition = "2024"
+
+[[bin]]
+name = "ScriptDocTool"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
 
 [dependencies]
 regex = "1.11.1"
