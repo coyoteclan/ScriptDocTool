@@ -12,6 +12,11 @@ This tool can generate documentation for script functions and methods in [t1x-se
 - ``--write-sep`` Write docs for (new) functions in separate temp. files
 - ``--sort`` Sort functions in existing doc files in alphabetical order
 
+The tool must be executed from t1x-server/iw1x-server directory.
+Source files are expected to be at:
+
+``src/gsc/``
+
 The expected paths for writing docs are:
 
 ``docs/source/pages/scripting/functions``<br>
