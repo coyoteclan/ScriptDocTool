@@ -14,7 +14,7 @@ This tool can generate documentation for script functions and methods in [t1x-se
 
 The expected paths for writing docs are:
 
-``docs/source/pages/scripting/functions``
+``docs/source/pages/scripting/functions``<br>
 ``docs/source/pages/scripting/methods``
 
 ## Note
